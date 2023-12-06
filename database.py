@@ -1,7 +1,7 @@
-from models import ProjectManager
+from models import DatabaseManager
 
 def main():
-    project_manager = ProjectManager()
+    project_manager = DatabaseManager()
 
     project_manager.register_user('user1', 'password1')
     project_manager.login_user('user1', 'password1')
